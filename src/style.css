@@ -1,0 +1,38 @@
+:root {
+  --gradient: linear-gradient(
+    96.2deg,
+    rgb(255, 230, 112) 10.4%,
+    rgb(255, 100, 100) 43.8%,
+    rgb(0, 93, 219) 105.8%
+  );
+  --default-font: "Roboto Mono", monospace;
+  --heading-font: "Satisfy", cursive;
+}
+
+body {
+  font-family: var(--default-font);
+}
+
+h1 {
+  background: var(--gradient);
+  font-family: var(--heading-font);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 80px;
+}
+
+h3 {
+  color: white;
+}
+
+.hero p {
+  color: white;
+}
+
+.hero {
+  background: black;
+}
+
+.introduction {
+  margin-top: 100px;
+}
