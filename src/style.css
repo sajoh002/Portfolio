@@ -11,6 +11,7 @@
 
 body {
   font-family: var(--default-font);
+  background: var(--gradient);
 }
 
 h1 {
@@ -31,8 +32,28 @@ h3 {
 
 .hero {
   background: black;
+  padding: 50px;
 }
 
 .introduction {
   margin-top: 100px;
+}
+
+.btn-learn-more {
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .hero {
+    padding: 0;
+  }
+
+  .introduction {
+    margin-top: 10px;
+  }
 }
