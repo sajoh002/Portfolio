@@ -49,6 +49,17 @@ h3 {
   border: 1px solid black;
 }
 
+.btn-contact {
+  padding: 10px 20px;
+  background: white;
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  background: gray;
+  color: white;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 50px;
