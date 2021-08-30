@@ -50,6 +50,14 @@ h3 {
   margin-top: 100px;
 }
 
+.info {
+  margin-top: 150px;
+}
+
+.info p {
+  margin-top: 30px;
+}
+
 .header {
   background: black;
   padding-top: 140px;
@@ -59,6 +67,14 @@ h3 {
 .heading {
   font-family: var(--heading-font);
   font-size: 50px;
+}
+
+.project {
+  margin-top: 50px;
+}
+
+.project h3 {
+  color: #212529;
 }
 
 .btn-learn-more {
@@ -73,7 +89,7 @@ h3 {
 }
 
 .btn:hover {
-  background: gray;
+  background: #393e46;
   color: white;
 }
 
@@ -88,6 +104,18 @@ h3 {
 
   .introduction {
     margin-top: 10px;
+  }
+
+  .info {
+    margin-top: 10px;
+  }
+
+  .project {
+    margin-top: 10px;
+  }
+
+  .empty {
+    display: none;
   }
 }
 
