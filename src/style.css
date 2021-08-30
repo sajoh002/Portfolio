@@ -99,7 +99,11 @@ h3 {
   }
 
   .hero {
-    padding: 0;
+    padding: 20px;
+  }
+
+  .header {
+    padding-top: 100px;
   }
 
   .introduction {
