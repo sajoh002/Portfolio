@@ -32,6 +32,10 @@ h3 {
   color: white;
 }
 
+nav {
+  font-family: var(--default-font);
+}
+
 .about-paragraph {
   margin-top: 80px;
   padding: 30px;
